@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.mapa {
+  position: relative;
+  width: 80vw; /* Ajuste o tamanho do mapa conforme necessário */
+  height: 80vh;
+  background-color: #d1e7dd;
+  overflow: hidden;
+}
+
+.casa {
+  position: absolute;
+  background-color: lightblue;
+  border: 2px solid #000; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #333;
+  transition: background-color 0.3s ease;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+input, button {
+  margin-top: 10px;
+}
